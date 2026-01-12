@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inline css</title>
+</head>
+
+<body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      background-image: url(./about-1.png);
+      color: blueviolet;
+      margin: 50px auto;
+      width: 50%;
+      height: 600px;
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: all 2s;
+    }
+
+    .box::after {
+      content: "";
+      background-color: rgba(180, 35, 35, 0.26);
+      height: 600px;
+      width: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      transition: all 2s;
+    }
+
+    .box::before {
+      content: "";
+      background-color: rgb(165, 101, 101);
+      height: 600px;
+      width: 50%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      transition: all 1s;
+    }
+
+    .box:hover::after {
+      width: 0%;
+      transition: all 1.5s;
+    }
+
+    .box:hover::before {
+      width: 0%;
+      transition: all 2s;
+    }
+
+    .box h1 {
+      position: absolute;
+      right: 0px;
+      bottom: 50px;
+    }
+  </style>
+
+  <div class="box">
+    <h1>hello</h1>
+  </div>
+</body>
+
+</html>

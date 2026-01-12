@@ -1,0 +1,431 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #f8e6e6;
+ }
+   .insta-icon a i{
+    background-color: rgb(236, 199, 213);
+    color: rgb(250, 53, 135);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    font-size: 35px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+   }
+
+ .main-header {
+     padding: 5px 10px;
+     background-color: #f596a2;
+ }
+
+ .main-header .header-in {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 90px;
+     margin: 5px;
+ }
+
+ .main-header .header-in .menu ul {
+     display: flex;
+ }
+
+ .main-header .header-in .menu ul li {
+     list-style: none;
+     margin: 5px 5px;
+     padding: 20px 15px;
+     color: rgb(22, 22, 22);
+     font-weight: bold;
+ }
+
+ .search-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 15px;
+ }
+  
+ .search-box {
+     padding: 10px 15px;
+     width: 250px;
+     border: 2px solid #4CAF50;
+     border-radius: 25px 0 0 25px;
+     outline: none;
+     font-size: 16px;
+
+ }
+
+ .search-box:focus {
+     border-color: #2e7d32;
+     box-shadow: 0 0 8px rgba(46, 125, 50, 0.5);
+ }
+
+ .search-btn {
+     padding: 10px 20px;
+     border: 4px;
+     border-radius: 5px;
+     background: #4CAF50;
+     color: white;
+     font-size: 16px;
+     border-radius: 0 25px 25px 0;
+     cursor: pointer;
+
+ }
+
+ .search-btn:hover {
+     background: #2e7d32;
+ }
+
+ .banner {
+     width: 95%;
+     height: 400px;
+     background-image: url(./banner-10-min.png);
+     display: flex;
+     align-items: center;
+     border-radius: 50px;
+     margin: 15px auto;
+ }
+
+ .box-content {
+     background: transparent;
+     background-color: transparent;
+     box-shadow: none;
+     margin-left: 50px;
+     color: #181818;
+ }
+
+ .featured {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+ }
+
+ .featured-tab {
+     display: flex;
+     gap: 25px;
+     margin: 0px 5px;
+     padding: 20px 15px;
+     color: rgb(22, 22, 22);
+     font-weight: 900;
+ }
+
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     /* line break when boxes overflow */
+     gap: 20px;
+     /* spacing between boxes */
+     justify-content: center;
+ }
+
+ .boxes {
+     width: 11%;
+     border: 2px solid #C7DB9C;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     font-weight: bold;
+     font-size: 18px;
+     text-align: center;
+     padding: 15px;
+ }
+
+ .boxes img {
+     width: 70px;
+     height: 70px;
+    
+ }
+
+ .container .boxes h3{
+    color:  rgb(37 61 78);
+ }
+
+ .container .boxes h4{
+    color : rgb(126 126 126);
+    font-size: 16px;
+    margin-top: 5px;
+ }
+
+/* three box */
+.threebox{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threebox .threebox-in{
+    width: 30%;
+    background-color: rgb(236, 255, 236);
+    padding: 12px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.threebox .threebox-in img{
+    width: 176px;
+    height: 158px;
+}
+
+.threebox .threebox-in .text h2{
+    color : rgb(37 61 78);
+    font-size: 25px;
+    line-height: 34px;
+    margin: 10px 0px;
+}
+
+.threebox .threebox-in .text button{
+    background-color: rgb(59 183 126);
+    color: white;
+    padding: 10px 45px;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 3px solid white;
+}
+ .popular-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+ }
+ .popular-tabs {
+     display: flex;
+     gap: 25px;
+ }
+ .product-box {
+    width: 90%;
+    margin: 20px auto;
+     display: flex;
+    align-items: center;
+     justify-content: center;
+     gap: 32px;
+ }
+ .product-in {
+     background-color: white;
+     width: 20%;
+     height: 390px;
+     margin: 15px;
+     border: 2px solid #C7DB9C;
+     border-radius: 5px;
+     
+ }
+
+ .product-in img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+      .product-in .text h3 {
+        margin: 10px 0;
+        padding-left: 18px;
+      }
+         .product-in .text p{
+            padding-left: 18px;
+            color: rgb(182 182 182)
+         }
+
+       .product-in span{
+        margin: 10px;
+        padding: 18px;
+        color:rgb(59 183 126);
+       }
+     .product-in .span button{
+        background-color: #2e7d32;
+    color: white;
+    margin: 0 20px ;
+    padding: 10px ;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 3px solid white;
+     }
+
+ .deal {
+     padding: 12px;
+ }
+
+    .deal-product {
+     display: flex;
+     position: relative;
+     margin: 10px;
+     padding: 10px;
+     justify-content: space-evenly;
+ }
+
+ .deals {
+     width: 23%;
+     height: 270px;
+     border: 2px solid #C7DB9C;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     font-weight: bold;
+     font-size: 18px;
+     text-align: center;
+     position: relative;
+ }
+
+ .deals img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ } 
+     .deals .offer-box{
+    background-color: #f8f6f6;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow:2px 4px 4px 2px solid #292929;
+    position: absolute;
+    left: 20px;
+    bottom: -55px;
+    right: 120px;
+    
+  }
+      .offer-box .text h3 {
+        margin: 10px ;
+        padding: 10px;
+      }
+         .offer-box .text p{
+            padding-left: 18px;
+            color: rgb(182 182 182)
+         }
+
+       .offer-box span{
+        margin: 15px;
+        padding: 10px;
+        color:rgb(59 183 126);
+       }
+     .offer-box .span button{
+        background-color: #2e7d32;
+    color: white;
+    margin:  20px ;
+    padding: 10px ;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 3px solid white;
+     }
+
+ .recent-viewed {
+     padding: 20px;
+     background: #fff7f7 ;
+     border-radius: 10px;
+     border: 2px dashed #c7c4c4;
+ }
+
+ .recent-viewed h2 {
+     margin-bottom: 20px;
+ }
+
+ .recent-box {
+     border: 2px dashed #c7c4c4;
+     padding: 20px;
+     display: flex;
+     gap: 20px;
+ }
+
+ .product-card {
+     width: 22%;
+     text-align: center;
+ }
+
+ .product-card img {
+     width: 80px;
+     margin-bottom: 10px;
+ }
+
+ .product-card h4 {
+     font-size: 14px;
+     margin: 8px 0;
+ }
+
+ .fivebox {
+     display: flex;
+     justify-content: space-between;
+     margin: 20px;
+ }
+
+ .box5 {
+    display: flex;
+     width: 17%;
+     height: 120px;
+     border: 4px solid #c9c7c7;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     padding: 5px;
+ }
+
+ .box5 img {
+     width: 25%;
+     height: 50px;
+     margin: 20px;
+     padding: 10px;
+ }
+
+ .box5 .text {
+     margin-top: 10px;
+     padding-right: 15px;
+     font-size: 18px;
+     text-align: center;
+ }
+
+ .footer-container {
+     display: flex;
+     gap: 5px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     justify-content: space-around;
+ }
+
+ .footer-text {
+     column-gap: 15px;
+     line-height: 35px;
+     color: #292929;
+ }
+      .footer-text h2 img{
+        width: 80px;
+        justify-content: space-between;
+      }
+
+
+  .call-footer{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 30px;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+    .call-footer .text{
+        line-height: 30px;
+        font-size: larger;
+        width: 20%;     
+       color: #3b3b3b;
+    }
+     .call-footer .time-footer h2{
+        color: #4CAF50;
+        font-weight: 800;
+     }
+     .call-footer .time-footer p{
+        padding: 5px;
+        margin:0 7px;
+     }
+     .call-footer .follow-footer{
+ line-height: 30px;
+        font-size: larger;
+        width: 20%;     
+       color: #3b3b3b;
+     }
+
+      .call-footer .follow-footer h3 a{
+         background-color: rgb(236, 199, 213);
+    color: rgb(250, 53, 135);
+    border-radius: 20px;
+    padding: 4px;
+      }
+

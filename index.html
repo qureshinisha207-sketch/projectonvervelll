@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="icon" href="./ecomicon.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+     body{
+           background-image: url(./whitewall.avif);
+           background-position: center;
+           background-size: cover;
+           margin: 40px;
+           padding: 160px;
+     }
+        .text-box{
+            width:50px
+
+                 
+        }
+         
+input {
+  width: 250px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+
+ ::placeholder {
+  color: gray;         
+  font-style: italic;   
+  font-size: 13px;      
+  letter-spacing: 1px;  
+}
+  .login-btn{
+            width: 200px;
+            height: 35px;
+            margin: 5px;
+            color: rgb(19, 18, 18);
+            background-color:  rgb(253, 214, 130);
+            border-radius: 4px;
+  }
+
+
+    </style>
+    
+    <div class="Login">
+        <h2 style="font-family: arimo;">Login</h2>
+    <p class="Account">Don't have an account?<a href="create.html" >Create Account</a></p>
+</div>
+
+    <div class="text-box"><input type="text" placeholder="Enter Username">
+   <br> <input type="password" placeholder="password"></div>
+   <a href="#" class="forgot" style="color: red;">Forgot Your Password?</a>
+<br>
+<br>
+   <button class="login-btn">Login</button>
+    <b><p class="login-with" style="color: rgb(245, 57, 33);">Login With</p></b>
+
+    <div class="social">
+        <button class="fb">f</button>
+        <button class="google">G</button>
+        <button class="twitter">t</button>
+    </div>
+    
+    
+</body>
+</html>
